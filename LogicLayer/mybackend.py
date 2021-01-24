@@ -70,7 +70,7 @@ class Database:
     def get_available_pitches(type, start_game):
         Database.create_connection()
         sql = "SELECT * FROM Pitches WHERE type=? AND id not in " \
-              "(SELECT pitch_id FROM Games WHERE sport_type=? AND start_game=?)"
+              "(SELECT pitch_id FROM Games WHERE sport_type=? AND start_game=?) GROUP BY address"
         try:
             ans = Database.cur.execute(sql, (type, type, start_game,)).fetchall()
         except sqlite3.Error as e:
