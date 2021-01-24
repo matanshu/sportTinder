@@ -11,4 +11,4 @@ Autors: Matan Shuhsan & Ido Kestenbaum
 
 # Installation & Running Project
 1. For installation, please use requirements.txt file.
-2. For runnnig the project please run GUI.py file on the PresentationLayer module after.
+2. For runnnig the project please run GUI.py file on the PresentationLayer module.
