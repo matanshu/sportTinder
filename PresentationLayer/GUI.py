@@ -304,7 +304,7 @@ class Create_Game(Tk):
 #in case the user press "no" button the function get the next pitch that available and fit to the user query.
     def next_pitch(self):
         # self.lbl_pitch_name.
-        self.index = self.index +1
+        self.index = self.index + 1
         self.lbl_pitch_address_label.destroy()
         self.lbl_pitch_distance_label.destroy()
 

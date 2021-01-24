@@ -8,7 +8,7 @@ from os.path import isfile
 """Static Class which responsible on coordinating between view layer to logic later
 the class is collaborating with GUI module and using OSM and mybackend modules for getting results"""
 class ProgramManager:
-    db_name = 'database.db'
+    db_name = './LogicLayer/database.db'
     location = None
 
     """method which responsible on setting the location of the user
