@@ -1,0 +1,18 @@
+Babel==2.9.0
+brotlipy==0.7.0
+certifi==2020.12.5
+cffi @ file:///opt/concourse/worker/volumes/live/e2eb91c2-780d-4f74-545d-c2827857ffe3/volume/cffi_1600699193708/work
+chardet==3.0.4
+cryptography @ file:///opt/concourse/worker/volumes/live/c92b6573-5445-4a21-4a76-9af93cc67a5e/volume/cryptography_1601046836410/work
+haversine @ file:///home/conda/feedstock_root/build_artifacts/haversine_1599245402255/work
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+olefile==0.46
+Pillow @ file:///opt/concourse/worker/volumes/live/e393590e-6fac-4044-5f7f-24de3efceff1/volume/pillow_1602788693621/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+PySocks==1.7.1
+pytz==2020.5
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+six==1.15.0
+tkcalendar==1.6.1
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
